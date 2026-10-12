@@ -1,0 +1,12 @@
+{
+  "name": "serp-engine-cdp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone raw-CDP SERP snapshot scripts (no dependencies).",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "serp": "node serp.js",
+    "aio": "node aio.js"
+  }
+}
