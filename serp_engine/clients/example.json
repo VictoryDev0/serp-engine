@@ -1,0 +1,28 @@
+{
+  "id": "example",
+  "label": "Example Plumbing",
+  "domain": "example.com",
+  "aliases": ["www.example.com"],
+  "brand_regex": "example\\s*plumbing",
+  "topic": "plumbers in Springfield",
+  "kpi_goal": "Top 10 by end of quarter",
+  "location": {"hl": "en", "gl": "us", "uule_name": "Springfield,Illinois,United States", "country": "US", "city": "Springfield"},
+  "groups": {
+    "kpi": {"pages": 3, "label": "KPI"},
+    "head": {"pages": 2, "label": "Head keywords"},
+    "service": {"pages": 2, "label": "Services"},
+    "place_w1": {"pages": 1, "label": "Places, wave 1"}
+  },
+  "keywords": [
+    {"keyword": "plumber springfield", "grp": "kpi"},
+    {"keyword": "emergency plumber springfield", "grp": "head"},
+    {"keyword": "water heater repair springfield", "grp": "service", "cadence": "weekly"},
+    {"keyword": "drain cleaning springfield", "grp": "service", "cadence": "monthly"}
+  ],
+  "place_patterns": ["plumber {place}"],
+  "place_expand": {"waves": [1], "cadence": {"1": "weekly"}},
+  "ai_prompts": [
+    "Which plumber in Springfield would you recommend for an emergency?",
+    "Best rated plumbing companies in Springfield"
+  ]
+}
